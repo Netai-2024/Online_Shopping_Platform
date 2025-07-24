@@ -1,0 +1,353 @@
+body{
+    background-color: rgb(246, 243, 243);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero{
+    display: flex;
+    background-color: white;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    gap:4vw;
+    justify-content: start;
+    position: sticky;
+    top: 0%;
+}
+#ls{
+    display: flex;
+    gap: 2rem;
+}
+.others{
+    display: flex;
+    gap: 1vw;
+}
+
+.logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    width:8rem;
+}
+.logo div{
+    display:flex;
+    gap:6px;
+    padding-left: 3rem;
+}
+.logo div span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: darkgray;
+}
+#gold{
+    color: rgb(239, 189, 24);
+}
+
+input{
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    background-color:  rgb(231, 243, 255);
+    border: none;
+    border-radius: 6px;
+    width:45vw;
+}
+#search{
+    background-color:rgb(231, 243, 255);
+    padding-left: 0.6rem;
+    border-radius: 6px;
+}
+
+#search-all{
+    background-color: rgb(231, 243, 255);
+    margin:0.5rem;
+    gap:5px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    width:auto;
+}
+a{
+    text-decoration: none;
+}
+.herospace{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    align-items: center;
+    padding:0rem 1rem;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1rem;
+    padding:1rem;
+    gap:3rem;
+}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.7rem;
+}
+nav div a{
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(60, 60, 60);
+    cursor:default;
+}
+.hovereffect:hover{
+    color: rgb(50, 50, 244);
+}
+.slide{
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    width:96.7vw;
+    height:35vh;
+    background-size: cover;
+    animation-name: slideimage; 
+    animation-duration: 30s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes slideimage {
+    0%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/155a500756ae5995.jpg?q=20");
+    }
+    6%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/155a500756ae5995.jpg?q=20");
+    }
+    12%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/05adcdf765d309fd.jpg?q=20");
+    }
+    18%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/05adcdf765d309fd.jpg?q=20");
+    }
+    24%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/184a99b8cd3484b6.jpg?q=20");
+    }
+    30%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/184a99b8cd3484b6.jpg?q=20");
+    }
+    36%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/34ea3229ae1d5d5a.jpg?q=20");
+    }
+    42%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/34ea3229ae1d5d5a.jpg?q=20");
+    }
+    48%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/7fd0e4ab26429926.jpg?q=20");
+    }
+    54%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/7fd0e4ab26429926.jpg?q=20");
+    }
+    60%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/9713a8a3d85b97b0.jpg?q=20");
+    }
+    66%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/9713a8a3d85b97b0.jpg?q=20");
+    }
+    72%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8a89ee09acc1a9e5.jpg?q=20");
+    }
+    78%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/8a89ee09acc1a9e5.jpg?q=20");
+    }
+    84%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/11b9c0d2db5c2ab1.jpg?q=20");
+    }
+    90%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/11b9c0d2db5c2ab1.jpg?q=20");
+    }
+    100%{
+        background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/155a500756ae5995.jpg?q=20");
+    }
+}
+
+.electronics{
+    display:flex;
+    background-color: rgb(246, 243, 243);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap:1rem;
+    align-items: center;
+}
+.size{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.product{
+    display: flex;
+    gap: 1rem;
+}
+.product div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : 0.1px solid rgb(192, 187, 187);
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.product img{
+    width:11vw;
+    height:24vh;
+    margin-bottom: 0.8rem;
+}
+.product img:hover{
+   transform: scale(1.05);
+}
+#sideimage{
+    height: 47.5vh;
+    width:15.5vw;
+}
+.price{
+    font-weight: bold;
+    padding-top: 0.2rem;
+}
+.pricegreen{
+    font-size: 1.2rem;
+    color: rgb(2, 158, 2);
+}
+
+.diffSection{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+.heading div{
+    border-radius: 50%;
+    background-color: rgb(36, 36, 246);
+    padding: 0.1rem 0.5rem;
+    padding-top: 0.25rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+.section3{
+    display: flex;
+}
+.topmargin{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-right:0rem ;
+}
+.imgwidth{
+    width:13.08vw !important;
+    height:26vh !important;
+}
+.limgwidth{
+    height:26vh !important;
+    width: 9.08vw !important; 
+    padding-left:2vw;
+    padding-right: 2vw;
+}
+.rimgwidth{
+    height:26vh !important;
+    width: 5.08vw !important; 
+    padding-left:4vw;
+    padding-right: 4vw;
+}
+.simage{
+    width:9.5vw !important; 
+    padding: 0rem 1rem;
+}
+.timagewidth{
+    width: 5.5vw !important; 
+    padding-left:2.8vw;
+    padding-right: 2.8vw;
+}
+
+.prefooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0vw;
+}
+.prefooter img{
+    width:95vw;
+}
+#prefooter1{
+    margin: 3rem;
+}
+li{
+    list-style-type: none;
+}
+footer{
+    background-color: rgb(30, 30, 30);
+    font-size: 0.9rem;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    border-bottom: 1px solid rgb(69, 69, 69);
+}
+.left{
+    display: flex;
+    gap:4vw;
+}
+.left a,.lower a{
+    color: white;
+}
+h3{
+    color: rgb(140, 139, 139);
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+}
+.left a:hover{
+    text-decoration: underline;
+}
+.right p{
+    color: white;
+    cursor:default;
+}
+.upper{
+    display: flex;
+}
+.right{
+    display: flex;
+    gap:1.3vw;
+    padding-left: 1.5rem;
+    border-left: 1px solid rgb(69, 69, 69);
+}
+.lower{
+    display: flex;
+    padding:1.5rem 0rem;
+    justify-content: space-evenly;
+}
+.lower div{
+    display: flex;
+    align-items: center;
+}
+
+#signin:hover{
+    background-color: #231cf6;
+    border-radius: 10px;
+}
+
+a,p,h2,h3,div{
+    font-family: nter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif;
+}
